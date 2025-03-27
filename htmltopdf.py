@@ -33,7 +33,7 @@ elif sys.platform == 'linux':
 else:
     # Handle other platforms or provide a default path
     print("Unsupported platform. Please set the Chrome path manually.")
-    chrome_path = None
+    chrome_path = input("Please enter the full path to your Chrome executable (e.g., /Applications/Google Chrome.app/Contents/MacOS/Google Chrome or C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe): ")
 
 # Check if the Chrome path was determined successfully
 if chrome_path:
